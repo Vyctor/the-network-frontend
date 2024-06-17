@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="signup">
+    <h1>Create your account</h1>
+    <form
+      [formGroup]="createAccountForm"
+      (ngSubmit)="createAccount()"
+      class="signupForm"
+    >
+      <input
+        type="text"
+        name="name"
+        placeholder="name"
+        required="required"
+        formControlName="name"
+      />
+      <input
+        type="text"
+        name="email"
+        placeholder="e-mail"
+        required="required"
+        formControlName="email"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+        required="required"
+        formControlName="password"
+      />
+      <button type="submit" class="btn btn-primary btn-block btn-large">
+        Create account
+      </button>
+      <span><a href="/login">Go Back</a></span>
+    </form>
+  </div>
+</div>

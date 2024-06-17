@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  .signup {
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #393838;
+    border-radius: 20px;
+
+    h1 {
+      margin: 0 auto;
+      padding: 20px 0px 20px 0px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        background-color: #393838;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      span {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        cursor: pointer;
+      }
+
+      &>* {
+        padding: 10px;
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .register {
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #393838;
+    border-radius: 20px;
+
+    span {
+      margin: 0 auto;
+    }
+  }
+}

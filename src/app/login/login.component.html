@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="login">
+    <h1>TheNetwork</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="login()" class="loginForm">
+      <input
+        type="text"
+        name="email"
+        placeholder="e-mail"
+        required="required"
+        formControlName="email"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+        required="required"
+        formControlName="password"
+      />
+      <button type="submit" class="btn btn-primary btn-block btn-large">
+        Login
+      </button>
+    </form>
+  </div>
+  <div class="register">
+    <span>Don't have an account? <a href="signup">Sign up</a></span>
+  </div>
+</div>
