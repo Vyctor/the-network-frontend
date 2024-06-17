@@ -12,3 +12,4 @@ Frontend de uma rede social inspirada no Twitter(X)
 - Desenvolver busca de pessoas
 - Desenvolver tela de pessoa, onde você pode dar follow e unfollow
 - Extrair métodos para services e provavelmente um módulo commons de integração com o backend
+
